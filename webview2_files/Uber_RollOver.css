@@ -1,0 +1,507 @@
+@charset "utf-8";
+/* CSS Document */
+/* Rollover layout: Left navigation */
+  
+.rolLeft {
+  width: 650px;
+  height: 359px/*400px*/;
+  margin: 2em auto;
+  margin-bottom: 2em;
+}
+
+.rolLeft h3 {
+  margin: 0px;
+  height: 30px;
+  padding: 0px 10px/*10px 10px 8px 10px*/;
+}
+
+.rolLeft div {
+  padding: 15px;
+  max-height: 350px;
+  overflow: auto;
+}
+
+.rolLeft .nav {
+  float: left;
+  width: 180px;
+  padding: 15px;
+  margin-right: 5px;
+  height: 320px;
+}
+
+.rolLeft .nav a {
+  display: block;
+  padding: 3px;
+  margin: 8px;
+}
+
+.rolLeft h5 {
+  margin: 0.5em 0.5em 0.5em 0em;
+}
+
+
+/* Rollover layout: Right navigation */
+
+.rolRight {
+  width: 650px;
+  height: 359px;
+  margin: 2em auto;
+  margin-bottom: 2em;
+}
+
+.rolRight h3 {
+  margin: 0px;
+  height: 30px;
+  padding: 0px 10px;
+}
+
+.rolRight div {
+  padding: 15px;
+  max-height: 350px;
+  overflow: auto;
+}
+
+.rolRight .nav {
+  float: right;
+  width: 180px;
+  padding: 15px;
+  margin-right: 5px;
+  height: 320px;
+  text-align: right;
+}
+
+.rolRight .nav a {
+  display: block;
+  padding: 3px 5px 3px 3px;
+  margin: 8px;
+}
+
+.rolRight h5 {
+  margin: 0.5em 0.5em 0.5em 0em;
+}    
+
+/* Rollover Layout: Timeline */
+
+.rolTime {
+  width: 700px;
+  height: 359px;
+  margin: 2em auto;
+  margin-bottom: 2em;
+}
+
+.rolTime h3 {
+  margin: 0px;
+  height: 30px;
+  padding: 0px 10px;
+}
+
+.rolTime div {
+  padding: 15px;
+  max-height: 278px;
+  overflow: auto;
+
+}
+
+.rolTime .nav {
+  width: 700px;
+  height: 72px;
+  white-space: nowrap;
+  overflow: auto;
+  padding: 0px 10px 0px 10px;
+}
+
+.rolTime .nav a {
+  display: inline-block;
+  padding: 3px;
+  margin: 6px;
+}
+
+.rolTime .nav a:nth-child(even) {
+  vertical-align: text-bottom;
+}
+
+.rolTime .nav a:nth-child(odd) {
+  vertical-align: text-top;
+}
+
+.rolTime .hovering {
+}
+
+.rolTime h5 {
+}
+
+/* Rollover Layout: Top */
+
+.rolTop {
+  width: 700px;
+  height: 359px;
+  margin: 2em auto;
+  margin-bottom: 2em;
+}
+
+.rolTop h3 {
+  margin: 0px;
+  height: 50px;
+  padding: 0px 10px;
+}
+
+.rolTop div {
+  padding: 15px;
+  max-height: 288px;
+  overflow: auto;
+
+}
+
+.rolTop .nav {
+  width: 700px;
+  height: 67px;
+  white-space: nowrap;
+  overflow: auto;
+  padding: 5px 10px 0px 10px;
+}
+
+.rolTop .nav a {
+  display: inline-block;
+  padding: 3px 5px 3px 5px;
+  margin: 6px 10px 6px 10px;
+}
+
+.rolTop .hovering {
+}
+
+.rolTop h5 {
+}    
+
+/* Rollover Layout: Bottom */
+
+.rolBottom {
+  width: 700px;
+  height: 359px;
+  margin: 2em auto;
+  margin-bottom: 2em;
+  position: relative;
+}
+
+.rolBottom h3 {
+  margin: 0px;
+  height: 30px;
+  padding: 0px 10px;
+}
+
+.rolBottom div {
+  padding: 15px;
+  max-height: 288px;
+  overflow: auto;
+
+}
+
+.rolBottom .nav {
+  width: 700px;
+  height: 62px;
+  white-space: nowrap;
+  overflow: auto;
+  padding: 5px 10px 0px 10px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.rolBottom .nav a {
+  display: inline-block;
+  padding: 3px 5px 3px 5px;
+  margin: 6px 10px 6px 10px;
+}
+
+.rolBottom .hovering {
+}
+
+.rolBottom h5 {
+}
+
+/* Rollover Style: Red */
+
+.rosRed {
+  font-family: "Georgia", serif;
+  border: 5px solid #bf283e;
+  border-radius: 20px;
+  background-color: #ffdddd;
+}
+
+.rosRed h3 {
+  background-color: #bf283e;
+  color: #ffffff;
+  border-bottom: 2px solid #bf283e;
+}
+
+.rosRed div {
+
+}
+
+.rosRed .nav {
+ /* background-color: #bf283e; */
+}
+
+.rosRed .nav a {
+  text-decoration: none;
+  color: #800000;
+}
+
+.rosRed .hovering {
+  font-weight: bold;
+}
+
+.rosRed div h4 {
+  font-size: 1.1em;
+  margin: 0.5em 0.5em 0.5em 0em;
+}
+
+.rosRed div h5 {
+  font-size: 1.1em;
+  margin: 0.5em 0.5em 0.5em 0em;
+}     
+
+/* Rollover Style: Keller */
+
+ .rosKeller {
+  border: 5px solid #a7a9ac;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.rosKeller h3 {
+  background-color: #a7a9ac;
+  border-bottom: 2px solid #003366;
+}
+
+.rosKeller div {
+}
+
+.rosKeller .nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #6e6f71;
+}
+
+.rosKeller .hovering {
+  text-decoration: underline !important;
+}
+
+.rosKeller div h4 {
+  font-size: 1.1em;
+  margin-top: 0.3em;
+  color: #6e6f71;
+}  
+
+.rosKeller div h5 {
+  font-size: 1.1em;
+  margin-top: 0.3em;
+  color: #6e6f71;
+} 
+
+/* Rollover Style: CCN */
+
+ .rosCCN {
+  border: 5px solid #5AAAAA;
+  border-radius: 15px;
+}
+
+.rosCCN h3 {
+  background-color: #5AAAAA;
+  color: #ffffff;
+  border-bottom: 2px solid #D5A111;
+}
+
+.rosCCN div {
+}
+
+.rosCCN .nav {
+  border-right: 0px;
+  background-color: #ead088;
+}
+
+.rosCCN .nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #2a3994;
+}
+
+.rosCCN .hovering {
+  text-decoration: underline !important;
+}
+
+.rosCCN div h4 {
+  font-size: 1.1em;
+  margin-top: 0.3em;
+  color: #2a3994;
+}  
+
+.rosCCN div h5 {
+  font-size: 1.1em;
+  margin-top: 0.3em;
+  color: #2a3994;
+}
+
+/* Rollover Style: Classic */
+
+ .rosClassic {
+  border: 5px solid #003366;
+}
+
+.rosClassic h3 {
+  background-color: #003366;
+  color: #ffffff;
+  border-bottom: 2px solid #cc9900;
+}
+
+.rosClassic div {
+}
+
+.rosClassic .nav {
+  border-right: 0px;
+}
+
+.rosClassic .nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000080;
+}
+
+.rosClassic .hovering {
+  text-decoration: underline !important;
+}
+
+.rosClassic div h4 {
+  font-size: 1.1em;
+  margin-top: 0.3em;
+  color: #000080;
+}  
+
+.rosClassic div h5 {
+  font-size: 1.1em;
+  margin-top: 0.3em;
+  color: #000080;
+}
+
+/* Rollover Style: Runway */
+
+ .rosRunway {
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;    
+}
+
+.rosRunway h3 {
+  text-align:center;
+  color: #000000;
+  border-bottom: 2px solid #ffffff;
+}
+
+.rosRunway div {
+  background-color: #e0638d;
+}
+
+.rosRunway .nav {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.rosRunway .nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000000;
+  font-size: 1.2em;
+  font-family: "Coming Soon", sans-serif;
+}
+
+.rosRunway .hovering {
+  text-decoration: underline !important;
+}
+
+.rosRunway div h4 {
+  font-family: "Coming Soon", sans-serif;
+  font-size: 1.6em;
+  margin-top: 0em;
+  margin-bottom: 0.4em;
+  color: #000000;
+  font-weight: normal;
+  text-shadow: #ffffff 0px 0px 10px;
+}  
+
+.rosRunway div h5 {
+  font-family: "Coming Soon", sans-serif;
+  font-size: 1.6em;
+  margin-top: 0em;
+  margin-bottom: 0.4em;
+  color: #000000;
+  font-weight: normal;
+  text-shadow: #ffffff 0px 0px 10px;
+}  
+
+/* The creation style for rollovers */
+
+.ro-create {
+  width: 650px;
+  margin: 2em auto;
+  margin-bottom: 2em;
+  border: 3px dashed #000000;
+  border-radius: 6px;
+}
+
+.ro-create h3 {
+  margin: 10px;
+  height: 50px;
+  padding: 20px;
+  border: 2px dashed #888888;
+  border-radius: 6px;
+  background-color: #cccccc;
+}
+
+.ro-create h3:before {
+  content: "Rollover Title: ";
+  color: #666666;
+  font-weight: normal;
+}
+
+.ro-create div {  
+  margin: 10px;
+  padding: 20px;
+  border: 2px dashed #888888;
+  border-radius: 6px;
+}
+
+.ro-create .rolloverlabel {
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000000;
+  margin: 0px 0px 20px 0px;
+  padding: 0px 0px 10px 0px;
+  border-bottom: 2px dashed #888888;
+}
+
+.ro-create .rolloverlabel:before {
+  content: "Navigation Label: ";
+  color: #666666;
+  font-weight: normal;
+}
+
+.ro-create .rolloverlabeloff {
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000000;
+  margin: 0px 0px 20px 0px;
+  padding: 0px 0px 10px 0px;
+  border-bottom: 2px dashed #888888;
+}
+
+.ro-create .rolloverlabeloff:before {
+  content: "Navigation Label: ";
+  color: #666666;
+  font-weight: normal;
+}
+
+.ro-create h5 {
+  font-size: 1.1em;
+  margin: 0.5em 0.5em 0.5em 0em;
+}

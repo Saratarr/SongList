@@ -1,0 +1,87 @@
+/*- Evaluation Kit -*/
+@import 'https://devry.evaluationkit.com/canvas/css';
+
+/*********************************************************************/
+/***** BEGIN DESIGN TOOLS THEME IMPORT & CUSTOMIZATION  **************/
+/*********************************************************************/
+/* Import statements need to be at the top of your CSS file */
+/* For Main CSS file */
+@import url(https://designtools.ciditools.com/css/themes.css);
+/* For Mobile app CSS file */
+/*@import url(https://designtools.ciditools.com/css/app.css);*/
+/* Institution color customizations */
+@import url(https://designtools.ciditools.com/css/inst_theme_overrides.css);
+/* Theme Colors */
+:root {
+  --dt-color-primary: #037ABA;
+  --dt-color-primary-contrast: #FFFFFF;
+  --dt-color-primary-dark-text: #005695;
+  --dt-color-secondary: #FEC221;
+  --dt-color-secondary-contrast: #000000;
+  --dt-color-secondary-dark-text: #826609;
+  --dt-color-accent: #414244;
+  --dt-color-accent-contrast: #FFFFFF;
+  --dt-color-graybg: #E6E6E6;
+  --dt-color-graybg-contrast: #000000;
+}
+/*********************************************************************/
+/***** END DESIGN TOOLS HEME IMPORT & CUSTOMIZATION   ****************/
+/*********************************************************************/
+
+/*- DISABLE PAGE EDITING -*/
+#wiki_page_show.enable-editing .header-bar-right .edit-wiki, #wiki_page_show.enable-editing .header-bar-right .inline-block{
+    display: inline-block;
+}
+#wiki_page_show .header-bar-right .edit-wiki, #wiki_page_show .header-bar-right .inline-block{
+    display: none;
+}
+body:not(.is-admin) .edit_syllabus_link{
+    display: none !important;
+}
+
+.ic-app-course-menu .collaborations{
+    display: none;
+}
+
+.group-nav .ic-app-course-menu .collaborations{
+    display: block;
+}
+
+/*nav .section .settings {
+    display: none;
+}
+.is-admin nav .section .settings {
+    display: block;
+}*/
+/*- end DISABLE PAGE EDITING -*/
+.devry_note.discussion_note::before {
+    background: rgba(0, 0, 0, 0) url("data:image/png;base64,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") no-repeat scroll 0 0;
+}
+.devry_note.discussion_note {
+    border: 2px solid #414244;
+    background-color: #FEC221;
+    color: #414244;
+}
+.devry_note.discussion_note .discussion_note_content h3 a {
+    color: #414244 !important;
+}
+
+/* CSS for Kaltura Accordions */
+.kalturahide {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    opacity: 0;
+}
+.kaccordion h3 {
+    background-color: #eee;
+    padding: 0px 10px;
+}
+.kaccordion a {
+    color: #242224;
+    font-size: medium;
+    text-decoration: none !important;
+}
+.kaccordion h3 {
+    cursor: pointer;
+}

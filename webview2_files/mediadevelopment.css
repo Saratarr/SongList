@@ -1,0 +1,129 @@
+/*Las updated 3/14/2013 by Cleiby C.
+*/
+@charset "utf-8";
+/*  The following code is used for Practitioner Corner in the Project Management courses of Keller */
+	.outerDivBorder {
+		text-align: center;
+		margin-top: 20px;
+		width: 700px;
+		font-family: Arial, Helvetica, sans-serif;
+		margin-bottom: 20px;
+		font-size: 14px;
+		border: #036 4px solid;
+	}
+	
+	.innerDivBorder {
+		text-align: left;
+		padding-bottom: 5px; 
+		background-color: #036; 
+		padding-left: 5px; 
+		padding-right: 5px; color: #fff; 
+		font-size: 18px; 
+		padding-top: 5px;
+	}
+	
+	.imgPract1{
+		background-image: url(../Practitioner_Corner/bg1_fade.jpg); 
+		background-color: transparent; 
+		width: 100%; 
+		background-repeat: no-repeat; 
+		font-size: 14px;
+	}
+	
+	.imgPract2{
+		background-image: url(../Practitioner_Corner/bg2_fade.jpg); 
+		background-color: transparent; 
+		width: 100%; 
+		background-repeat: no-repeat; 
+		font-size: 14px;
+	}
+	.contentPract{
+		text-align: left; 
+		padding-left: 30px; 
+		padding-right: 30px;
+		padding-top: 190px;
+	}	
+/*  End of code used for Practitioner Corner in the Project Management courses of Keller */
+/* Rollover layout: Left navigation */
+  
+    .rolLeft {
+      width: 650px;
+      height: 400px;
+      margin: 2em auto;
+      margin-bottom: 2em;
+	  
+    }
+    
+    .rolLeft h3 {
+      margin: 0px;
+      height: 30px;
+      padding: 10px 10px 8px 10px;
+    }
+    
+    .rolLeft div {
+      padding: 15px;
+      max-height: 320px;
+      overflow: auto;
+    }
+    
+    .rolLeft .nav {
+      float: left;
+      width: 150px;
+      padding: 15px;
+      margin-right: 5px;
+      height: 320px;
+    }
+    
+    .rolLeft .nav a {
+      display: block;
+      padding: 3px;
+      margin: 8px;
+    }
+
+    .rolLeft h5 {
+      margin: 0.5em 0.5em 0.5em 0em;
+    }
+    
+
+    /* Rollover Style: CCN */
+    
+     .rosCCN {
+      border: 5px solid #036;
+      border-radius: 15px;
+    }
+    
+    .rosCCN h3 {
+      background-color: #036;
+      color: #ffffff;
+      border-bottom: 2px solid #D5A111;
+    }
+    
+    .rosCCN div {
+    }
+    
+    .rosCCN .nav {
+      border-right: 0px;
+      background-color: #FC0;
+    }
+    
+    .rosCCN .nav a {
+      text-decoration: none;
+      font-weight: bold;
+      color: #006;
+    }
+    
+    .rosCCN .hovering {
+      text-decoration: underline !important;
+    }
+    
+    .rosCCN div h4 {
+      font-size: 1.1em;
+      margin-top: 0.3em;
+      color: #006;
+    }  
+    
+    .rosCCN div h5 {
+      font-size: 1.1em;
+      margin-top: 0.3em;
+      color: #006;
+    }

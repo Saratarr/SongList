@@ -1,0 +1,7 @@
+C:\Users\mattn\Downloads\DeVry\CEIS209 Intermediate Programming\Visual Studio\Week 3 Project\obj\Debug\CEIS209 Song Project M Navy.csproj.AssemblyReference.cache
+C:\Users\mattn\Downloads\DeVry\CEIS209 Intermediate Programming\Visual Studio\Week 3 Project\obj\Debug\CEIS209_Song_Project_M_Navy.MainForm.resources
+C:\Users\mattn\Downloads\DeVry\CEIS209 Intermediate Programming\Visual Studio\Week 3 Project\obj\Debug\Demo_App.Properties.Resources.resources
+C:\Users\mattn\Downloads\DeVry\CEIS209 Intermediate Programming\Visual Studio\Week 3 Project\obj\Debug\CEIS209 Song Project M Navy.csproj.GenerateResource.cache
+C:\Users\mattn\Downloads\DeVry\CEIS209 Intermediate Programming\Visual Studio\Week 3 Project\obj\Debug\CEIS209 Song Project M Navy.csproj.CoreCompileInputs.cache
+C:\Users\mattn\Downloads\DeVry\CEIS209 Intermediate Programming\Visual Studio\Week 3 Project\obj\Debug\Demo App.exe
+C:\Users\mattn\Downloads\DeVry\CEIS209 Intermediate Programming\Visual Studio\Week 3 Project\obj\Debug\Demo App.pdb
